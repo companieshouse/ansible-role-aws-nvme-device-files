@@ -1,17 +1,16 @@
-# Ansible Role: AWS NVMe Device Files
+# Ansible Role: AWS NVMe Device Files
 
 An [Ansible Galaxy](https://galaxy.ansible.com/) role for creating device files using AWS block device names for NVMe devices and partitions.
 
-# Requirements
+## Requirements
 
 *None*
 
-Role Variables
---------------
+## Role Variables
 
 *None*
 
-# Example Requirements File
+## Example Requirements File
 
 ```yml
 - src: https://github.com/companieshouse/ansible-role-aws-nvme-device-files
@@ -19,7 +18,7 @@ Role Variables
 ```
 
 
-# Example Playbook
+## Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
@@ -29,6 +28,6 @@ Including an example of how to use your role (for instance, with variables passe
         - aws-nvme-device-files
 ```
 
-# License
+## License
 
 MIT
