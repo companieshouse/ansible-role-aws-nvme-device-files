@@ -29,3 +29,6 @@
     mode: '0755'
   notify:
     - Replay kernel device events
+
+- name: Ensure symbolic links are created for connected devices
+  meta: flush_handlers
