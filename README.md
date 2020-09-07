@@ -10,7 +10,7 @@ An [Ansible Galaxy](https://galaxy.ansible.com/) role for creating device files 
 
 *None*
 
-## Example Requirements File
+## Example Requirements File
 
 ```yml
 - src: https://github.com/companieshouse/ansible-role-aws-nvme-device-files
