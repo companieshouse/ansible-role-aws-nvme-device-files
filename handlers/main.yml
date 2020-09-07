@@ -1,0 +1,5 @@
+---
+
+- name: Replay kernel device events
+  command:
+    cmd: udevadm trigger --type=devices
