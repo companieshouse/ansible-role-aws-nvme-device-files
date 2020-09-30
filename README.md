@@ -15,6 +15,7 @@ An [Ansible Galaxy](https://galaxy.ansible.com/) role for creating device files 
 ```yml
 - src: https://github.com/companieshouse/ansible-role-aws-nvme-device-files
   name: aws-nvme-device-files
+  version: "n.n.n"
 ```
 
 ## Example Playbook
