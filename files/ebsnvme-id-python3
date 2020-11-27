@@ -95,7 +95,6 @@ class nvme_identify_controller(Structure):
                 ("psd", nvme_identify_controller_psd * 32),     # Power State Descriptor
                 ("vs", nvme_identify_controller_amzn_vs)]  # Vendor Specific
 
-
 class ebs_nvme_device:
     def __init__(self, device):
         self.device = device
@@ -126,7 +125,6 @@ class ebs_nvme_device:
         if stripped and device.startswith("/dev/"):
             device = device[5:]
         return device
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Reads EBS information from NVMe devices.")
