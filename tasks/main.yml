@@ -2,7 +2,8 @@
 
 - name: Check Python interpreter version
   shell: python3 --version 2>&1 || python --version 2>&1
-  executable: /bin/bash
+  args:
+    executable: /bin/bash
   register: python
   ignore_errors: true
 
