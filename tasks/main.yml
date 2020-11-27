@@ -40,9 +40,7 @@
     owner: root
     group: root
     mode: '0755'
-  when:
-    - python_version is version('2', '>=')
-    - python_version is version('3', '<')
+  when: python_version is regex('^2.*')
   notify:
     - Replay kernel device events
 
@@ -53,9 +51,7 @@
     owner: root
     group: root
     mode: '0755'
-  when:
-    - python_version is version('3', '>=')
-    - python_version is version('4', '<')
+  when: python_version is regex('^3.*')
   notify:
     - Replay kernel device events
 
