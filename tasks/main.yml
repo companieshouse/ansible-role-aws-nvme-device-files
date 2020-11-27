@@ -1,12 +1,12 @@
 ---
 
 - name: Check Python interpreter version
-  shell: python --version 2>&1
+  shell: python --version 2>&1 || python3 --version 2>&1
   register: python
   ignore_errors: true
 
 - fail:
-    msg: "Python interpreter not found"
+    msg: "Suitable Python interpreter not found"
   when: python.rc != 0
 
 - name: Set Python version
