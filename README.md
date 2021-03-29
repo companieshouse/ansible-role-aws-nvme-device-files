@@ -4,7 +4,7 @@ An [Ansible Galaxy](https://galaxy.ansible.com/) role for creating device files 
 
 ## Requirements
 
-* Python 2.7
+* A Python `2.x` or `3.x` interpreter
 
 ## Role Variables
 
