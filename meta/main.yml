@@ -1,6 +1,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: aws-nvme-device-files
   author: Companies House
   description: Expose NVME volumes via symbolic link device files with AWS block device names
   license: MIT
